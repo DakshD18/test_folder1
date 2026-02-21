@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -63,7 +65,7 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', Segoe UI, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   /* Subtle brand-tinted gradient — avoids the generic #f8fafc→#e2e8f0 slate ramp */
   background: linear-gradient(160deg, #f6faf7 0%, #eef4f0 55%, #e8f0ea 100%);
   color: var(--text-main);
@@ -129,8 +131,9 @@ a {
 
 
 .logo-text {
-  font-weight: 600;
-  letter-spacing: 0.04em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .nav-links {
@@ -258,7 +261,10 @@ a {
 }
 
 .page-title {
-  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.01em;
   margin-bottom: 0.25rem;
   color: var(--text-bright);
 }
@@ -285,8 +291,10 @@ a {
 }
 
 .card-title {
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  font-weight: 700;
   color: var(--text-bright);
 }
 
@@ -497,9 +505,11 @@ a {
 }
 
 .kpi-tile-value {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
   margin-top: 0.3rem;
   font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .kpi-tile-meta {
