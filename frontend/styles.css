@@ -247,12 +247,27 @@ a {
   width: 32px;
   height: 32px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent-green), #22c55e);
+  background: var(--bg-soft);
+  border: 1.5px solid var(--border-subtle);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
-  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0;
+  overflow: hidden;
+}
+
+.avatar-pill:hover {
+  background: #f1f5f9;
+  border-color: var(--text-dim);
+}
+
+.avatar-pill svg {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
 }
 
 /* HEADERS */
